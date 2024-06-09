@@ -1,0 +1,72 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    /* background-color: rgb(24, 24, 149); */
+    background: linear-gradient(135deg,#153677,#4e085f);
+    font: 1em sans-serif;
+    /* font-family: 'Poppins,sans-serif'; */
+}
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#card{
+    background-color: white;
+    height: 25rem;
+    width: 30rem;
+    margin-top: 7rem;
+    border-radius: 15px;
+}
+h2{
+    color: rgb(11, 11, 60);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-bottom:1px solid #333; */
+    /* background-color: aqua; */
+}
+.box{
+    padding-left: 5px;
+    border: solid;
+    /* border-width: 1.5px; */
+    margin: 20px;
+    height: 2.4rem;
+    width: 25rem;
+    /* background-color: rgb(108, 203, 24); */
+    display: flex;
+    align-items: center;
+    /* font: 1em sans-serif; */
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#box1{
+    margin-top: 15px;
+    /* background-color: rgb(31, 245, 245); */
+}
+#next{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(23, 23, 121); */
+    background-color: #001e4d;
+    color:#fff;
+    margin-left: 10rem;
+    height: 2rem;
+    width: 8rem;
+    border-radius: 5px;
+}
+.box:hover{
+
+    background-color: rgb(159, 159, 159);
+    /* background-color: #222; */
+}
+#quest{
+    color: #001e4d;
+    font-size: 20px;
+    font-weight: bolder;
+    
+
+}
